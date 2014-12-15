@@ -7,7 +7,7 @@ var autoprefixer = require('gulp-autoprefixer'),
     rename = require('gulp-rename'),
     sass = require('gulp-sass'),
     scsslint = require("gulp-scss-lint"),
-    tinylr = require("tiny-lr");
+    tinylr = require("tiny-lr")();
 
 var paths = {
     "example": "examples/**/*.*",
